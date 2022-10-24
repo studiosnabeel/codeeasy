@@ -1,0 +1,82 @@
+/* Home page mobile version CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Header Css Mobile */
+
+.head-container {
+  width: 100%;
+  height: 80px;
+  padding: 34px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(211, 211, 211, 0.3);
+}
+
+.ham-btn {
+  cursor: pointer;
+  width: 10px;
+  background-color: white;
+  color: #272a31;
+  border: none;
+  background-color: rgb(211, 211, 211, 0.1);
+}
+
+.fa-bars {
+}
+
+/* Hero section css Mobile */
+
+.hero-container {
+  background-color: white;
+  background: url(./Pictures/OpacityBG.png) no-repeat;
+  background-size: cover;
+}
+
+.hero-sub-container {
+  padding: 20px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-heading {
+  padding: 20px 0;
+  color: #ec5242;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.hero-heading-para {
+  border: 3px solid white;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  color: #272a31;
+}
+
+.hero-date {
+  padding: 20px 0 10px 0;
+  font-size: 30px;
+  color: #272a31;
+}
+
+.hero-second-para {
+  font-size: 19px;
+  font-weight: 600;
+  color: #272a31;
+  padding-bottom: 30px;
+}
+
+/*  */
