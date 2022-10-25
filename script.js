@@ -38,15 +38,15 @@ const teachersAll = [
 
 const speakerBio = document.querySelector('.speakers-cards');
 
-teachersAll.forEach((speakerBio) => {
+teachersAll.forEach((speaker) => {
   const div = document.createElement('div');
   div.innerHTML += `
     <div class="subCard">
-    <img src="${speakerBio.teacherImg}">
+    <img src="${speaker.teacherImg}">
     <div>
-        <h2>${speakerBio.teacherName}</h2>
-        <h3>${speakerBio.teacherExp}</h3>
-        <p>${speakerBio.teacherAbout}</p>
+        <h2>${speaker.teacherName}</h2>
+        <h3>${speaker.teacherExp}</h3>
+        <p>${speaker.teacherAbout}</p>
     </div>
     </div>
     `;
