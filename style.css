@@ -19,6 +19,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
+
   /* background-color: rgb(211, 211, 211, 0.3); */
   background-color: rgb(39, 42, 49, 0.9);
 }
@@ -26,6 +27,7 @@
 .ham-btn {
   cursor: pointer;
   width: 20px;
+
   /* color: #272a31; */
   color: #d3d3d3;
   border: none;
@@ -35,8 +37,8 @@
 /* Hero section css Mobile */
 
 .hero-container {
-  background-color: white;
   background: url(./Pictures/OpacityBG.png) no-repeat;
+  background-color: white;
   background-size: cover;
   padding: 50px 0;
 }
@@ -224,8 +226,7 @@
 }
 
 .teachImg {
-  /* height: 18vh; */
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
   width: 35vw;
 }
 
