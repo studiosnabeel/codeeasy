@@ -16,17 +16,18 @@
 .head-container {
   width: 100%;
   height: 80px;
-  padding: 34px;
+  padding: 20px;
   display: flex;
   align-items: center;
-  background-color: rgb(211, 211, 211, 0.3);
+  /* background-color: rgb(211, 211, 211, 0.3); */
+  background-color: rgb(39, 42, 49, 0.9);
 }
 
 .ham-btn {
   cursor: pointer;
-  width: 10px;
-  background-color: white;
-  color: #272a31;
+  width: 20px;
+  /* color: #272a31; */
+  color: #d3d3d3;
   border: none;
   background-color: rgb(211, 211, 211, 0.1);
 }
@@ -145,3 +146,45 @@
   font-size: 20px;
   font-weight: 100;
 }
+
+/* Speaker section css mobile */
+
+/* Partners section css mobile */
+
+.partner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.partner-sub-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.partner-img {
+  width: 160px;
+  height: 40px;
+}
+
+.partner-h2 {
+  font-size: 36px;
+  color: #ec5242;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.partner-hr {
+  background-color: #ec5242;
+  padding: 1px;
+  width: 60px;
+  margin: 6px 0 10px 0;
+}
+
+/* footer section css mobile */
