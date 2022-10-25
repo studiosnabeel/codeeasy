@@ -149,6 +149,72 @@
 
 /* Speaker section css mobile */
 
+.speakers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.speakers-h2 {
+  font-size: 24px;
+  color: #272a31;
+  font-weight: 500;
+}
+
+.speakers-hr {
+  margin: 10px 0 20px 0;
+  border: 1px solid #ec5242;
+  width: 70px;
+}
+
+.subCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.speaker-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 10px;
+}
+
+.teachImg-contain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.speakh2 {
+  font-size: 20px;
+  color: #272a31;
+  font-weight: 500;
+}
+
+.speakh3 {
+  padding: 6px 0;
+  font-size: 14px;
+  color: #ec5242;
+  font-weight: 500;
+}
+
+.speakp {
+  font-size: 14px;
+  color: #272a31;
+  font-weight: 400;
+}
+
+.teachImg {
+  /* height: 18vh; */
+  padding: 2% 2% 2% 2%;
+  width: 35vw;
+}
+
 /* Partners section css mobile */
 
 .partner-container {
@@ -190,15 +256,15 @@
 /* footer section css mobile */
 
 .foot-container {
-  background-color: #272a31;
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .foot-copyright {
-  color: #d3d3d3;
-  letter-spacing: 1px;
+  color: #ec5242;
+  letter-spacing: 2px;
   font-size: 20px;
   font-weight: 400;
 }
