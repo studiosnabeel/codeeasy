@@ -31,9 +31,6 @@
   background-color: rgb(211, 211, 211, 0.1);
 }
 
-.fa-bars {
-}
-
 /* Hero section css Mobile */
 
 .hero-container {
@@ -79,4 +76,72 @@
   padding-bottom: 30px;
 }
 
-/*  */
+/* Course Section CSS Mobile */
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(./Pictures/pattern_bg.png);
+  background-color: #272a31;
+  padding: 24px 0 24px 0;
+}
+
+.course-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid #272a31;
+  margin: 10px 0 10px 0;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 20px;
+  gap: 10px;
+}
+
+.course-main-head {
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.course-hr {
+  width: 60px;
+  border: 1px solid #ec5242;
+  margin: 10px 0 10px 0;
+}
+
+.course-head {
+  font-size: 24px;
+  flex: 3;
+  color: #ec5242;
+  text-align: center;
+}
+
+.course-para {
+  flex: 6;
+  color: #d3d3d3;
+}
+
+.fa-brands {
+  flex: 3;
+}
+
+.course-icon {
+  color: #d3d3d3;
+}
+
+.course-btn {
+  cursor: pointer;
+  padding: 20px;
+  margin-top: 14px;
+  background-color: #ec5242;
+  width: 80%;
+}
+
+.course-h3 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 100;
+}
