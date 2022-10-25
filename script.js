@@ -29,6 +29,12 @@ const teachersAll = [
     teacherExp: 'Software Developer at Microsoft',
     teacherAbout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
+  {
+    teacherImg: './Teacher pics/Yan.jpg',
+    teacherName: 'Yan simmond',
+    teacherExp: 'Software Developer at Microsoft',
+    teacherAbout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
 ];
 
 const speakerBio = document.querySelector('.speakers-cards');

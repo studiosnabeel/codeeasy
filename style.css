@@ -38,6 +38,7 @@
   background-color: white;
   background: url(./Pictures/OpacityBG.png) no-repeat;
   background-size: cover;
+  padding: 50px 0;
 }
 
 .hero-sub-container {
@@ -89,6 +90,13 @@
   padding: 24px 0 24px 0;
 }
 
+.course-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .course-container {
   width: 90%;
   display: flex;
@@ -137,7 +145,7 @@
   padding: 20px;
   margin-top: 14px;
   background-color: #ec5242;
-  width: 80%;
+  border: none;
 }
 
 .course-h3 {
@@ -151,10 +159,16 @@
 
 .speakers-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding: 20px;
+}
+
+.speakers-card {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .speakers-h2 {
@@ -267,4 +281,31 @@
   letter-spacing: 2px;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* desktop version 768px or above */
+@media screen and (min-width: 768px) {
+  /* hero section desktop css */
+
+  .hero-container {
+    padding: 100px 0;
+  }
+
+  /* Courses section desktop css */
+
+  .courses-container {
+    padding: 150px 0 150px 0;
+  }
+
+  .course-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    padding: 4%;
+  }
+
+  .course-btn {
+    width: 250px;
+  }
 }
