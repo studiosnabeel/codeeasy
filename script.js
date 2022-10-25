@@ -43,9 +43,7 @@ teachersAll.forEach((speaker) => {
   const div = document.createElement('div');
   div.innerHTML += `
     <div class='subCard'>
-    <div class='teachImg-contain'>
     <img class='teachImg' src="${speaker.teacherImg}">
-    </div>
     <div class='speaker-desc'>
         <h2 class='speakh2'>${speaker.teacherName}</h2>
         <h3 class='speakh3'>${speaker.teacherExp}</h3>
