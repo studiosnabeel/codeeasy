@@ -157,7 +157,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: white;
+  background-color: #d3d3d3;
 }
 
 .partner-sub-container {
@@ -188,3 +188,17 @@
 }
 
 /* footer section css mobile */
+
+.foot-container {
+  background-color: #272a31;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foot-copyright {
+  color: #d3d3d3;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 400;
+}
