@@ -19,7 +19,7 @@ const teachersAll = [
   },
 ];
 
-const speakerBio = document.querySelector('.speakers-cards');
+const speakerBio = document.querySelector('.speakers-cards1');
 
 teachersAll.forEach((speaker) => {
   const div = document.createElement('div');
@@ -58,7 +58,7 @@ const teachersAll1 = [
   },
 ];
 
-const speakerBio1 = document.querySelector('.speakers-cards');
+const speakerBio1 = document.querySelector('.speakers-cards2');
 
 teachersAll1.forEach((speaker1) => {
   const div1 = document.createElement('div');
