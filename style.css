@@ -204,6 +204,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 2%;
+  width: 35vw;
 }
 
 .speakh2 {
@@ -223,11 +225,6 @@
   font-size: 14px;
   color: #272a31;
   font-weight: 400;
-}
-
-.teachImg {
-  padding: 2%;
-  width: 35vw;
 }
 
 /* Partners section css mobile */
