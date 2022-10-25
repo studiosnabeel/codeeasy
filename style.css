@@ -284,6 +284,7 @@
 }
 
 /* desktop version 768px or above */
+
 @media screen and (min-width: 768px) {
   /* hero section desktop css */
 
@@ -310,10 +311,4 @@
   }
 
   /* speaker section desktop css */
-
-  .teachImg-contain {
-  }
-
-  .speaker-desc {
-  }
 }
