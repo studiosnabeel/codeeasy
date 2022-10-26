@@ -11,8 +11,8 @@ crossClose.addEventListener('click', () => {
   menuBar.classList.toggle('open-bar');
 });
 
-menuLinks.forEach((link) => {
-  link.addEventListener('click', () => {
+menuLinks.forEach((item) => {
+  item.addEventListener('click', () => {
     menuBar.classList.toggle('open-bar');
   });
 });
