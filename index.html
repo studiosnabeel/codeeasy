@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Capston Project 1</title>
+    <title>Code Easy Main page</title>
   </head>
   <body>
-    <header class="header-container">
+    <div class="header-container">
       <a class="header-a" href="#"><i class="fa-brands fa-github"></i></a>
       <a class="header-a" href="#"><i class="fa-brands fa-linkedin"></i></a>
       <a class="header-a" href="#">English</a>
       <a class="header-a" href="#">Page</a>
       <a class="header-a" href="#">Logout</a>
-    </header>
+    </div>
     <header class="head-container">
-      <button class="ham-btn"><i class="fa-solid fa-bars"></i></button>
+      <button class="ham-btn" id="burgerMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
       <button class="head-logo-pic">
         <a class="head-logo-pic" href="./index.html"
           ><img src="./Pictures/codeeasy.png" alt="Company logo"
@@ -24,7 +26,9 @@
       </button>
       <nav class="head-nav">
         <ul class="head-nav-ul">
-          <li class="head-li"><a class="head-a" href="#">About</a></li>
+          <li class="head-li">
+            <a class="head-a" href="./about.html">About</a>
+          </li>
           <li class="head-li"><a class="head-a" href="#">Program</a></li>
           <li class="head-li"><a class="head-a" href="#">Join</a></li>
           <li class="head-li"><a class="head-a" href="#">Sponsor</a></li>
@@ -34,11 +38,34 @@
           </li>
         </ul>
       </nav>
+      <div class="dropdown-container" id="drop-contain">
+        <ul class="dropdown-ul">
+          <li class="dropdown-li">
+            <a class="dropdown-a" href="./index.html">Home</a>
+          </li>
+          <li class="dropdown-li">
+            <a class="dropdown-a" href="./about.html">About</a>
+          </li>
+          <li class="dropdown-li">
+            <a class="dropdown-a" href="#">Contact us</a>
+          </li>
+        </ul>
+        <div class="close-container">
+          <a
+            class="close-icon fa fa-times"
+            id="crossClose"
+            style="color: white; cursor: pointer"
+          ></a>
+        </div>
+      </div>
     </header>
 
     <section class="hero-container">
       <div class="hero-sub-container">
-        <h1 class="hero-heading">Learn to Code , Become an Engineer.</h1>
+        <h1 class="hero-heading">
+          Learn to Code <br />
+          Become an Engineer.
+        </h1>
         <p class="hero-heading-para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga
           aut porro unde officiis repellendus sapiente. Molestias nobis odio
@@ -146,6 +173,7 @@
       </div>
     </footer>
 
+    <script src="./dropdown.js"></script>
     <script src="./script.js"></script>
     <script
       src="https://kit.fontawesome.com/a5120177aa.js"

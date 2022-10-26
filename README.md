@@ -1,60 +1,79 @@
-Capstone Solo Project # 1
+# Project Details:
 
-This is my first Capstone project at microverse which i have to do solo. In this project we have to follow the design by Cindy Shin in Behance. We have to create the main and about page for mobile and desktop version. We also need to add the speaker section of the project dynamically to html from the javascript object. We also need to make sure when we click on the burger menu in mobile version the drop down menu should appear. When we click on the about nav link it should take us to the about page and if we click on the main logo of the website it should take us back to main page. We need to create a unique project and our Topic should be different from the Cindy Shin design. So that we can later add this project to our resume for our uniqueness.
+## Project Name:
 
-Built With
+"Code Easy Online Learning Website"
 
-HTML CSS JavaScript Git Github Linters
+## Project Description:
 
-Getting Started
+"A website for beginers to learn HTML, CSS, Javascript, React And Node Js"
 
-To get a local copy up and running follow these simple example steps.
+## Live Demo
 
-Prerequisites
+https://studiosnabeel.github.io
 
-Google Chrome, Opera or any browser
+## Video Explainer:
 
-Setup
-git init
-git add .
-git commit -m "Add CSS to text"
-git checkout -b featured branch
-git push
-git fetch
-git clone
+https://www.loom.com/share/116d321abbfa48e9af86f81d9dd6b402
 
-Authors
+## Built With:
 
-👤 Nabeel Akbar
+** HTML **
+** CSS **
+** JAVA SCRIPT **
+** Linter **
 
-GitHub: https://github.com/studiosnabeel
+### Getting Started:
 
-Twitter: https://twitter.com/StudiosNabeel
+First of all set up the .github folder, then inside it create a folder named as workflows, then inside that foloder create a yml file called linters.yml. Then take the corresponding github file for the HTML/CSS linter config,then add index.html and a style.css to style our main content.
 
-LinkedIn: https://www.linkedin.com/in/nabeel-studios-7a474924a/
+### Prerequisites:
 
-🤝 Contributing
+node.js
 
-Contributions, issues, and feature requests are welcome!
+### Setup:
 
-Feel free to check the issues page.
+Through Github
 
-Show your support
+### Install:
+
+Through Github
+
+### Usage:
+
+Software delevoper Course
+
+### Run tests:
+
+Through Github,
+Linter test in local: npx stylelint "\*_/_.{css,scss}"
+
+## Deployment
+
+Not deployed yet
+
+## Authors
+
+👤 ** Nabeel Akbar **
+
+### GitHub: https://github.com/studiosnabeel
+
+### Twitter: https://twitter.com/StudiosNabeel
+
+### LinkedIn: https://www.linkedin.com/in/nabeel-studios-7a474924a/
+
+### 🤝 Contributing
+
+Thanks to the microverse team their great contributions.
+
+### Show your support
 
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+### Acknowledgments
 
-Cindy Shin in Behance
+Original design idea by Cindy Shin in Behance.
 
-Hat tip to anyone whose code was used
-Inspiration
-etc
-
-📝 License
+### 📝 License
 
 This project is MIT licensed.
-
-Link to my Portfolio website deployed with the help of github pages:
-
-https://studiosnabeel.github.io/
