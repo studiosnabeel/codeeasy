@@ -114,6 +114,7 @@
 /* Logo section of about page css Mobile */
 
 .logo-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,6 +143,52 @@
 .logo-img {
   width: 200px;
   max-width: 100%;
+}
+
+/* Exgraduates section about page mobile css */
+
+.exgraduates-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.exgraduates-img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-pic {
+  max-width: 100%;
+  margin: 10px 0;
+  border: 1px solid #e09087;
+  padding: 5px;
+  opacity: 0.5;
+  filter: hue-rotate(180deg);
+}
+
+.exgraduates-p {
+  color: #272a31;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.exgraduates-h2 {
+  color: #272a31;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.exgraduates-hr {
+  border: 1px solid #ec5242;
+  width: 50px;
+  margin: 20px 0;
 }
 
 /* Course Section CSS Mobile */
@@ -302,6 +349,15 @@
   background-color: #d3d3d3;
 }
 
+.partner-about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #d3d3d3;
+}
+
 .partner-sub-container {
   display: flex;
   flex-wrap: wrap;
@@ -448,6 +504,29 @@
     max-width: 100%;
   }
 
+  /* exgraduates section about page desktop css */
+
+  .exgraduates-container {
+    background-color: #272a31;
+  }
+
+  .exgraduates-h2 {
+    color: white;
+  }
+
+  .exgraduates-p {
+    color: white;
+  }
+
+  .exgraduates-img-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .student-pic {
+    width: 300px;
+  }
+
   /* Courses section desktop css */
 
   .courses-container {
@@ -475,5 +554,11 @@
 
   .teachImg {
     width: 150px;
+  }
+
+  /* partner section about page desktop css */
+
+  .partner-about-container {
+    display: none;
   }
 }
