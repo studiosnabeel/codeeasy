@@ -113,6 +113,7 @@
 }
 
 .hero-sub-about-container {
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,6 +134,7 @@
   font-size: 16px;
   font-weight: 100;
   color: #272a31;
+  margin: 20px 0;
 }
 
 .hero-about-date {
@@ -155,7 +157,7 @@
 
 .hero-about-second-para {
   color: #ec5242;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -436,6 +438,7 @@
 /* footer section css mobile */
 
 .foot-container {
+  padding: 0 20px;
   background-color: white;
   display: flex;
   justify-content: space-around;
@@ -445,6 +448,7 @@
 }
 
 .foot-copyright {
+  text-align: center;
   color: #ec5242;
   letter-spacing: 2px;
   font-size: 20px;
