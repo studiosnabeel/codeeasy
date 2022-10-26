@@ -13,12 +13,21 @@
 
 /* Header Css Mobile */
 
+.header-container {
+  display: none;
+}
+
+.head-nav {
+  display: none;
+}
+
 .head-container {
   width: 100%;
   height: 80px;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   /* background-color: rgb(211, 211, 211, 0.3); */
   background-color: rgb(39, 42, 49, 0.9);
@@ -32,6 +41,10 @@
   color: #d3d3d3;
   border: none;
   background-color: rgb(211, 211, 211, 0.1);
+}
+
+.head-logo-pic {
+  display: none;
 }
 
 /* Hero section css Mobile */
@@ -74,8 +87,8 @@
 }
 
 .hero-second-para {
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   color: #272a31;
   padding-bottom: 30px;
 }
@@ -168,9 +181,9 @@
   padding: 20px;
 }
 
-.speakers-card {
+.speakers-cards {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .speakers-h2 {
@@ -188,7 +201,7 @@
 .subCard {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -272,6 +285,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  /* height: 150px; */
 }
 
 .foot-copyright {
@@ -284,10 +299,95 @@
 /* desktop version 768px or above */
 
 @media screen and (min-width: 768px) {
+  /* header section 1 & 2 desktop css */
+
+  .header-container {
+    background-color: #272a31;
+    display: flex;
+    gap: 24px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 80px;
+  }
+
+  .head-nav {
+    display: block;
+  }
+
+  .head-nav-ul {
+    color: #272a31;
+    display: flex;
+    gap: 30px;
+  }
+
+  .head-li {
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    padding-left: 14px;
+    color: #ec5242;
+  }
+
+  .header-a {
+    color: #d3d3d3;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .header-a:hover {
+    color: #e09087;
+    transition-duration: 0.2s;
+  }
+
+  #head-li-enroll {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .head-a {
+    color: #272a31;
+    padding: 20px 0;
+  }
+
+  .head-a:hover {
+    color: #ec5242;
+    transition-duration: 0.2s;
+  }
+
+  #head-a-id {
+    color: #ec5242;
+  }
+
+  .head-container {
+    background-color: white;
+    padding: 0 60px;
+  }
+
+  .ham-btn {
+    display: none;
+  }
+
+  .head-logo-pic {
+    cursor: pointer;
+    display: block;
+    border: none;
+    width: 0;
+  }
+
   /* hero section desktop css */
 
   .hero-container {
-    padding: 100px 0;
+    padding: 100px;
+  }
+
+  .hero-heading {
+    font-size: 60px;
+  }
+
+  .hero-date {
+    font-size: 40px;
   }
 
   /* Courses section desktop css */
@@ -309,4 +409,13 @@
   }
 
   /* speaker section desktop css */
+
+  .speakers-cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .teachImg {
+    width: 150px;
+  }
 }
