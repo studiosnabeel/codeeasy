@@ -317,7 +317,7 @@
   .head-nav-ul {
     color: #272a31;
     display: flex;
-    gap: 30px;
+    gap: 27px;
   }
 
   .head-li {
@@ -379,7 +379,7 @@
   /* hero section desktop css */
 
   .hero-container {
-    padding: 100px;
+    padding: 150px;
   }
 
   .hero-heading {
