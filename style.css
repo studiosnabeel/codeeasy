@@ -13,6 +13,10 @@
 
 /* Header Css Mobile */
 
+.header-container {
+  display: none;
+}
+
 .head-container {
   width: 100%;
   height: 80px;
@@ -32,6 +36,10 @@
   color: #d3d3d3;
   border: none;
   background-color: rgb(211, 211, 211, 0.1);
+}
+
+.head-logo-pic {
+  display: none;
 }
 
 /* Hero section css Mobile */
@@ -284,6 +292,32 @@
 /* desktop version 768px or above */
 
 @media screen and (min-width: 768px) {
+  /* header section 1 & 2 desktop css */
+
+  .header-container {
+    background-color: #272a31;
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 20px;
+  }
+
+  .head-container {
+    background-color: white;
+  }
+
+  .ham-btn {
+    display: none;
+  }
+
+  .head-logo-pic {
+    cursor: pointer;
+    display: block;
+    border: none;
+    width: 0;
+  }
+
   /* hero section desktop css */
 
   .hero-container {
