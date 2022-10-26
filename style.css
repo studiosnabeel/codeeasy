@@ -47,6 +47,33 @@
   display: none;
 }
 
+.dropdown-container {
+  display: flex;
+  width: 0;
+  height: 0;
+  background: #272a31;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  border-bottom-left-radius: 100%;
+  transition: width 0.5s, height 0.5s, border-radius 0.5s;
+}
+
+.dropdown-container.open-bar {
+  width: 100%;
+  height: 100vh;
+  border-bottom-left-radius: 0;
+}
+
+.dropdown-ul {
+  margin: 10px 25px;
+  padding: 28px 2px;
+  list-style-type: none;
+}
+
 /* Hero section css Mobile */
 
 .hero-container {
