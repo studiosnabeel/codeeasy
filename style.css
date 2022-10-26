@@ -64,6 +64,13 @@
   background-position: center;
 }
 
+.hero-sub-about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-heading {
   padding: 20px 0;
   color: #ec5242;
@@ -80,6 +87,11 @@
   color: #272a31;
 }
 
+.hero-about-date {
+  font-size: 20px;
+  font-weight: 100;
+}
+
 .hero-date {
   padding: 20px 0 10px 0;
   font-size: 30px;
@@ -91,6 +103,12 @@
   font-weight: 400;
   color: #272a31;
   padding-bottom: 30px;
+}
+
+.hero-about-second-para {
+  color: #ec5242;
+  font: 30px;
+  font-weight: 400;
 }
 
 /* Course Section CSS Mobile */
