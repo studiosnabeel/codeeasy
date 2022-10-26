@@ -1,6 +1,6 @@
 Capstone Solo Project # 1
 
-This is my first Capstone project at microverse which i have to do solo. In this project we have to follow the design by Cindy Shin in Behance. We have to create the main and about page for mobile and desktop version. We also need to add the speaker section of the project dynamically to html from the javascript object. We also need to make sure when we click on the burger menu in mobile version the drop down menu should appear. When we click on the about nav link it should take us to the about page and if we click on the main logo of the website it should take us back to main page. We need to create a unique project and our Topic should be different from the Cindy Shin design. So that we can later add this project to our resume for our uniqueness.
+This is my first Capstone project at microverse Module 1 which i have to do solo. In this project we have to follow the design by Cindy Shin in Behance. We have to create the main and about page for mobile and desktop version. We also need to add the speaker section of the project dynamically to html from the javascript object. We also need to make sure when we click on the burger menu in mobile version the drop down menu should appear. When we click on the about nav link it should take us to the about page and if we click on the main logo of the website it should take us back to main page. We need to create a unique project and our Topic should be different from the Cindy Shin design. So that we can later add this project to our resume for our uniqueness.
 
 Built With
 
@@ -57,4 +57,4 @@ This project is MIT licensed.
 
 Link to my Portfolio website deployed with the help of github pages:
 
-https://studiosnabeel.github.io/
+https://studiosnabeel.github.io
