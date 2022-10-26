@@ -49,6 +49,8 @@
 
 .dropdown-container {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 0;
   height: 0;
   background: #272a31;
@@ -58,20 +60,39 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
   transition: width 0.5s, height 0.5s, border-radius 0.5s;
 }
 
 .dropdown-container.open-bar {
   width: 100%;
   height: 100vh;
-  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .dropdown-ul {
-  margin: 10px 25px;
-  padding: 28px 2px;
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 120px 10px;
+}
+
+.dropdown-li {
+  padding: 10px;
+  font-weight: 300;
+}
+
+.dropdown-a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.close-container {
+  font-size: 30px;
+  color: white;
+  padding: 80px 30px;
 }
 
 /* Hero section css Mobile */
