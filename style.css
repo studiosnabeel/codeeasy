@@ -556,6 +556,14 @@
     max-width: 100%;
   }
 
+  .course-container {
+    flex-direction: column;
+  }
+
+  .course-para {
+    text-align: center;
+  }
+
   /* exgraduates section about page desktop css */
 
   .exgraduates-container {
