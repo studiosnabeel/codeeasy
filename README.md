@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-https://studiosnabeel.github.io
+https://studiosnabeel.github.io/codeeasy/
 
 ## Video Explainer:
 
